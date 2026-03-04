@@ -1,5 +1,5 @@
 {
-  "name": "engram-extension",
+  "name": "gemini-cli-engram",
   "version": "1.0.0",
   "description": "Persistent long-term memory for Gemini CLI using Engram MCP.",
   "repository": "https://github.com/Gentleman-Programming/engram",
