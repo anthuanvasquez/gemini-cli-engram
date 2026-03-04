@@ -1,0 +1,19 @@
+{
+  "name": "engram-extension",
+  "version": "1.0.0",
+  "description": "Persistent long-term memory for Gemini CLI using Engram MCP.",
+  "repository": "https://github.com/Gentleman-Programming/engram",
+  "homepage": "https://github.com/Gentleman-Programming/engram",
+  "license": "MIT",
+  "mcpServers": {
+    "engram": {
+      "type": "stdio",
+      "command": "engram",
+      "args": [
+        "mcp",
+        "--tools=agent"
+      ]
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
