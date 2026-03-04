@@ -22,6 +22,18 @@ To link this extension locally from the project root:
 gemini extensions link .
 ```
 
+or
+
+```bash
+gemini extensions install https://github.com/anthuanvasquez/gemini-cli-engram
+```
+
+To uninstall this extension:
+
+```bash
+gemini extensions uninstall gemini-cli-engram
+```
+
 ## Custom Commands
 
 Once linked, you can use these commands directly in your terminal:
