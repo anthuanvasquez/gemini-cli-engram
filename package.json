@@ -1,0 +1,24 @@
+{
+  "name": "engram-extension",
+  "version": "1.0.0",
+  "description": "Persistent memory extension using Engram MCP",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "esbuild src/*.ts --bundle --platform=node --outdir=dist",
+    "watch": "esbuild src/*.ts --bundle --platform=node --outdir=dist --watch",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "gemini-cli",
+    "extension",
+    "engram",
+    "memory"
+  ],
+  "author": "Anthuan Vasquez",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.7.3"
+  }
+}

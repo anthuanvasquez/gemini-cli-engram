@@ -4,7 +4,7 @@
       {
         "name": "engram-session-start",
         "type": "command",
-        "command": "node ${extensionPath}/scripts/session-start.js",
+        "command": "node ${extensionPath}/dist/session-start.js",
         "description": "Initializes Engram session context"
       }
     ],
@@ -12,7 +12,7 @@
       {
         "name": "engram-session-end",
         "type": "command",
-        "command": "node ${extensionPath}/scripts/session-end.js",
+        "command": "node ${extensionPath}/dist/session-end.js",
         "description": "Finalizes Engram session"
       }
     ]
