@@ -8,6 +8,7 @@ This extension integrates [Engram](https://github.com/Gentleman-Programming/engr
 - **Session Context:** Automatically retrieves context from previous sessions at startup.
 - **Memory Protocol:** Built-in instructions (`GEMINI.md`) that guide the agent on what and when to save.
 - **Automated Hooks:** Startup and shutdown notifications to ensure memory hygiene.
+- **Custom Commands:** Directly interact with your memory from the CLI.
 
 ## Requirements
 
@@ -15,17 +16,19 @@ This extension integrates [Engram](https://github.com/Gentleman-Programming/engr
 
 ## Installation
 
-Install the extension
-
-```bash
-gemini extensions install engram
-```
-
 To link this extension locally from the project root:
 
 ```bash
 gemini extensions link .
 ```
+
+## Custom Commands
+
+Once linked, you can use these commands directly in your terminal:
+
+- **`gemini mem:stats`**: Show general statistics of your Engram memory.
+- **`gemini mem:search "query"`**: Perform a full-text search across all your saved memories.
+- **`gemini mem:context [project]`**: Show the most recent context and summaries for a specific project.
 
 ## How it Works
 
